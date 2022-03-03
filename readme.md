@@ -7,7 +7,7 @@ Icon groups are made with the following sizes of icons:
 - 256
 - 128
 - 96
-- 54
+- 64
 - 48
 - 32
 - 24
