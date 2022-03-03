@@ -22,3 +22,5 @@ In order to use the converter, simple drag-and-drop images onto the executable. 
 ## Shell Integration
 
 Included is a registry file. This must be manually edited and merged with the registry. The file can be edited with any text editor, but note that some break the formatting necessary for it to be compatible with the registry editor when merging. The `"Icon"=` and command lines must have the full paths to the executable added. This will vary based on where you put the program. Simply copy the path and place before the double slash (`\\`) before each instance of `\\Icon Group Generator.exe`. Also note that each `\` in the path must be doubled inside of the registry file. The icon assignment and label are both optional, but the line for the command is required to work. Once the file is modified just double-click and you will be prompted to merge it with the registry.
+
+The shell integration can be manually added for any desired filetype, but the current registry file inculded with builds targets the image file class on Windows 10. This means any file type that Windows 10 reckngnizes as a valid image type will have the shell option for conversion.
