@@ -24,6 +24,6 @@ goto :eof
 :error
 cls
 color 0c
-echo Error. An infile must be sullpied to use this converter!
+echo Error. An infile must be supplied to use this converter!
 pause > nul
 goto :eof
